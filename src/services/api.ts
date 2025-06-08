@@ -22,7 +22,7 @@ export const weatherAPI = {
   },
 
   predictRain: async (weatherData: WeatherInput): Promise<PredictionResponse> => {
-    const response = await api.post('/predict/', weatherData);
+    const response = await api.post('/predict', weatherData);
     return response.data;
   },
 };
