@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { WeatherInput, PredictionResponse, WeatherStats } from '../types/weather';
 
-const API_BASE_URL = 'https://logirainwebapp-production.up.railway.app/';
+const API_BASE_URL = 'https://logirainwebapp-production.up.railway.app';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
