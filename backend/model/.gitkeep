@@ -1,0 +1,2 @@
+# Place your trained model (.pkl file) in this directory
+# The model should be named 'weather_model.pkl'
